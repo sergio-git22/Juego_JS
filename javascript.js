@@ -18,9 +18,9 @@ function determineWinner(player, computer) {
     (player === "papel" && computer === "piedra") ||
     (player === "tijera" && computer === "papel")
   ) {
-    return "¡Ganaste!";
+    return "¡Has ganado!";
   } else {
-    return "¡Perdiste!";
+    return "¡Has perdido!";
   }
 }
 
